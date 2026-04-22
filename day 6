@@ -1,0 +1,7 @@
+today it was about docker and its commands
+installed docker through get.docker.com & also using sudo apt-get install -y docker.io command
+  after that using docker run command installed nginx
+  assigned port number to the nginx
+  it was successfull 
+  problem: did not used sudo before applying docker commands at first so the docker has not accepted my commands later reliased my mistake and moved forward
+    successfully
