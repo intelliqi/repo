@@ -1,0 +1,15 @@
+docker image contains of code ,binaries & libraries,dependencies that required to run an app.
+  docker container means when an image is successfully pulled and comes into running state 
+  then it is considered to be a container by docker 
+  commands : docker pull imagename
+    docker push imagename
+    docker ps -a
+    docker ps
+    docker images
+    docker run imagename
+    docker -d -p portnumber imagename
+    docker container ls
+    docker rm containername
+    docker stop containername
+    when i have changed port number the port mapping comes into picture and activates the particular
+    port number that i have mentioned to the server 
