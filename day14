@@ -1,0 +1,12 @@
+create a app.txt file in github repository & add some content 
+  go to jenkins click on new item
+  select freestyle project by giving it a name first-job ,save
+  go to configuration management & then select git
+  copy and paste the git hub url link
+  select build steps
+  add execute shell
+  echo "Build started"
+cat app.txt , save
+  click on build now after completion of process go to console output check weather the process is
+  successful and then content in ur file had displayed or not
+  
