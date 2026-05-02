@@ -1,0 +1,11 @@
+jenkins is a servent which plays a major role in the automation of ci-cd process
+  jenkins is more adaptable and always stays updated
+  installation of jenkins
+  connect to the ec2 instance
+  sudo apt-get update
+  sudo apt-get install -y openjdk-21-jdk
+  sudo apt-get install -y git maven
+  wget (copy & paste the link address )
+  java -jar jenkins.war
+  check the server using public ip with portnumber :8080
+  the web opens successfully
