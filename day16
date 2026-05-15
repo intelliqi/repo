@@ -1,0 +1,5 @@
+Made Jenkins clean old containers automatically before deploying new one by modifying build step
+  of jenkins job
+  added || true to the command which played a key role
+  || represents 'or' 
+  
