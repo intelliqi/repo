@@ -1,0 +1,5 @@
+integrating docker with jenkins
+  here i failed at my first step that is connecting jenkins user to docker group later learned the mistake & found how to connect 
+ then docker integration with jenkins is successful
+  image was built, container runned,nginx website worked
+  later changes were made to execute one  more time and they got reflected immediately after build
