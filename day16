@@ -1,5 +1,9 @@
-Made Jenkins clean old containers automatically before deploying new one by modifying build step
-  of jenkins job
-  added || true to the command which played a key role
+Made Jenkins clean old containers automatically before deploying new one with the same name
+by modifying build step of jenkins job
+it  makes reuse of old containers simply safely
+  added || true to the command which played a key role,it prevents the build failure and makes the
+command to be assumed true
   || represents 'or' 
-  
+  executed the job many times by modifying the build step in different ways to clear all my 
+doubts some got failed and other was successful but whatever all my cofusions were cleared
+
