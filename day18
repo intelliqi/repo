@@ -1,0 +1,7 @@
+today it was again about  webhooks practice but this time i faced issue with the webhooks becoz i restarted my ec2 instance so due to which the public
+  ip got changed, i known that the webhook gets failed so i replaced the old ip with new one but still  the webhook failed so i checked it again there i made 
+  a mistake while giving the payload url that is instead of http at the beginning & webhook at the end i mentioned https at the start & webhooks at the end 
+which was incorrect 
+also added an extra command to buildstep inorder to clear old image and replace with new one which clears unnecessary junks
+this process automatically builds an image from a docker file by maintaining a connection between  jenkins & github using webhook & storing in fresh containers by 
+clearing the old images and container names ,ports etc.....without involvement of mankind repeatedly
