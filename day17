@@ -1,0 +1,6 @@
+today it was about automating the build process in jenkins
+  it was successfully done by using webhooks 
+  created a webhook connected to jenkins using public ip 
+  made changes to  the job -> configure -> triggers , enabled GitHub hook trigger for GITScm polling -> save
+  after this when ever a new file is added or updated it automatically triggers jenkins to go through the build process 
+  then the result displays
